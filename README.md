@@ -11,10 +11,6 @@ Proyecto WordPress: Custom Post Type
 - [Descripción](#descripción)
 - [Características](#características)
 - [Instalación](#instalación)
-- [Uso](#uso)
-- [Código del CPT](#código-del-cpt)
-- [Compatibilidad](#compatibilidad)
-- [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 
 ---
