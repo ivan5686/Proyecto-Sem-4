@@ -1,0 +1,78 @@
+/*
+Theme Name: Proyecto_Sem3
+Theme URI: http://localhost:10004/
+Author: Ivan
+Author URI: MUY URL
+Description: Tema personalizado desarrollado para el Proyecto de la Semana 3.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: proyecto_sem3 y Proyecto_Sem4
+
+Tags: personalizado, tema-educativo, responsivo
+*/
+.contenedor-proyectos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.proyecto-tarjeta {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+.proyecto-tarjeta:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.imagen-proyecto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.proyecto-titulo {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.proyecto-descripcion {
+  font-size: 1rem;
+  color: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+
